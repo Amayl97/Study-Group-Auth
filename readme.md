@@ -1,10 +1,10 @@
 IMPLEMENTED FEATURES:
-# user can register himself. If already have an account he can click on already have an account link and will be redirected to login page and same goes for the login page. user can move to register.html if does'nt have an account.
-# user can login himself.
-# after login or regsteration user will be taken to profile.jsp page where user's username and email would appeared along with their chosen course.
-# User can click on Home and will be redirected to the main index.jsp.
-# user can also logout by clicking on logout button and will be redirected to login page.
-# If user has not logged in the main home page shows login and signin buttons otherwise it shows user's username and logout button.
+= user can register himself. If already have an account he can click on already have an account link and will be redirected to login page and same goes for the login page. user can move to register.html if does'nt have an account.
+= user can login himself.
+= after login or regsteration user will be taken to profile.jsp page where user's username and email would appeared along with their chosen course.
+= User can click on Home and will be redirected to the main index.jsp.
+= user can also logout by clicking on logout button and will be redirected to login page.
+= If user has not logged in the main home page shows login and signin buttons otherwise it shows user's username and logout button.
 
 
 UPCOMING FEATURES:
