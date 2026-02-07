@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | StudyHub</title>
+  <link rel="stylesheet" href="css/login-reg-style.css">
+</head>
+<body>
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1>Create Account</h1>
+      <p class="subtitle">Join global study groups</p>
+       <p id="error"></p>
+      <form id="form" action="reg" method="post">
+        <label>Full Name</label>
+        <input name = "name" type="text" id="name" placeholder="Your full name" required>
+
+        <label>Email</label>
+        <input name="email" type="email" id="email" placeholder="Your email address" required>
+
+        <label>Field of Study</label>
+        <select required id="field" name="field">
+          <option value="">Select field</option>
+          <option>Computer Science</option>
+          <option>BBA</option>
+          <option>Engineering</option>
+          <option>Other</option>
+        </select>
+
+        <label>Password</label>
+        <input name="password" type="password" id="password" placeholder="Create a password" required>
+
+        <button type="submit" id="submit">Sign Up</button>
+      </form>
+
+      <p class="switch">
+        Already have an account?
+        <a href="login.jsp">Login</a>
+      </p>
+    </div>
+  </div>
+<script src="js/reg.js"></script> 
+</body>
+</html>
